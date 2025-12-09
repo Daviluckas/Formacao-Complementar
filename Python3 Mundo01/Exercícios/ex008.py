@@ -1,0 +1,8 @@
+m1 = float(input('Escreva uma metragem:'))
+km = (m1 / 1000 )
+hm = (m1 / 100)
+dam = (m1 / 10)
+dm = (m1 * 10)
+cm = (m1 * 100)
+mm = (m1 * 1000)
+print('A converção desse valor corresponde a \n{}km; \n{}hm; \n{}dam; \n{}dm; \n{}cm; \n{}mm.'.format(km, hm, dam, dm, cm, mm))
